@@ -356,7 +356,9 @@ overflow-y: auto;
 	}
 	img{
 		user-select: none;
-		width: 1.5rem;
+		width: 2rem;
+		height: 2rem;
+		border-radius: 50%;
 	}
 	span{
 		font-family: 'Amita', cursive;
@@ -374,6 +376,10 @@ overflow-y: auto;
 		font-size: 0.9rem;
 		background-color: rgba(255,255,255,0.3);
 		color: #111;
+	}
+	div{
+		display: flex;
+		justify-content: center;
 	}
 	div:hover h3{
 		display: block;
